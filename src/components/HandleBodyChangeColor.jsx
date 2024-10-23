@@ -17,7 +17,7 @@ function HandleBodyChangeColor() {
         <div>
             <button 
             onClick={changeBodyColor}
-            style={{ padding: '10px 20px', fontSize: '16px', color: 'black' }}>
+            style={{ padding: '10px 20px', fontSize: '16px', color: 'black', border: 'none', borderRadius: '10px', marginTop: '50px', marginLeft: '50px' }}>
                 Click to change color
                 </button>
         </div>
