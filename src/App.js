@@ -1,9 +1,9 @@
-import HandleBodyChangeColor from "./components/HandleBodyChangeColor";
+import ChangeColorButton from "./components/HandleBodyChangeColor";
 
 function App() {
   return (
     <div className="App">
-      <HandleBodyChangeColor />
+      <ChangeColorButton />
     </div>
   );
 }

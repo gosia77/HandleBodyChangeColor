@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 
-function HandleBodyChangeColor() {
-    
-    
+function ChangeColorButton() {  
     const getRandomColor = () => {
         const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`
         return randomColor;
@@ -22,10 +20,6 @@ function HandleBodyChangeColor() {
                 </button>
         </div>
     )
-
-
-
-
 }
 
-export default HandleBodyChangeColor;
+export default ChangeColorButton;
