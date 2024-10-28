@@ -1,4 +1,4 @@
-import ChangeColorButton from "./components/HandleBodyChangeColor";
+import ChangeColorButton from "./components/ChangeColorButton";
 
 function App() {
   return (
